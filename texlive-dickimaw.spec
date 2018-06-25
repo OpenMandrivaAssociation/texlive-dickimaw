@@ -5,7 +5,7 @@
 # catalog-license fdl
 # catalog-version undef
 Name:		texlive-dickimaw
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Books and tutorials from the "Dickimaw LaTeX Series"
 Group:		Publishing
