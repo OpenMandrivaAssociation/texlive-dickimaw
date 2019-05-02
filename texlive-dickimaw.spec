@@ -5,8 +5,8 @@
 # catalog-license fdl
 # catalog-version undef
 Name:		texlive-dickimaw
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Books and tutorials from the "Dickimaw LaTeX Series"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/dickimaw
