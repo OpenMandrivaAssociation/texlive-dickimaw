@@ -1,18 +1,12 @@
-# revision 32925
-# category Package
-# catalog-ctan /info/dickimaw
-# catalog-date 2014-02-09 18:16:38 +0100
-# catalog-license fdl
-# catalog-version undef
 Name:		texlive-dickimaw
-Version:	20190228
+Version:	32925
 Release:	1
 Summary:	Books and tutorials from the "Dickimaw LaTeX Series"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/dickimaw
 License:	FDL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dickimaw.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dickimaw.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dickimaw.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dickimaw.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -196,7 +190,7 @@ encounter errors in your LaTeX documents.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
