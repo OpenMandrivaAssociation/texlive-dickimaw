@@ -1,6 +1,6 @@
 Name:		texlive-dickimaw
 Version:	32925
-Release:	1
+Release:	2
 Summary:	Books and tutorials from the "Dickimaw LaTeX Series"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/dickimaw
