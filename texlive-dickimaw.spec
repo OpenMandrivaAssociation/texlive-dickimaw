@@ -3,7 +3,7 @@ Version:	32925
 Release:	2
 Summary:	Books and tutorials from the "Dickimaw LaTeX Series"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/dickimaw
+URL:		https://www.ctan.org/tex-archive/info/dickimaw
 License:	FDL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dickimaw.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dickimaw.doc.r%{version}.tar.xz
